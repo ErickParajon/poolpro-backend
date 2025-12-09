@@ -1,0 +1,19 @@
+/.gradle/
+/build/
+/out/
+/bin/
+/logs/
+/tmp/
+/application-local.yml
+
+# Firebase credentials
+**/serviceAccountKey.json
+**/firebase-credentials.json
+**/*-firebase-adminsdk-*.json
+
+
+
+
+
+
+

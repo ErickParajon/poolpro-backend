@@ -1,0 +1,33 @@
+spring:
+  r2dbc:
+    url: r2dbc:postgresql://localhost:5432/poolpro
+    username: postgres
+    password: postgres
+  flyway:
+    url: jdbc:postgresql://localhost:5432/poolpro
+    user: postgres
+    password: postgres
+  security:
+    oauth2:
+      resourceserver:
+        jwt:
+          issuer-uri: http://localhost:8081/realms/poolpro
+
+stripe:
+  api-key: sk_test_xxx
+  webhook-secret: whsec_xxx
+
+sendgrid:
+  api-key: SG.xxx
+
+twilio:
+  account-sid: ACxxx
+  auth-token: xxx
+  messaging-service-sid: MGxxx
+
+auth:
+  refresh-token:
+    seeds:
+      - seed-refresh-token-1
+      - seed-refresh-token-2
+
