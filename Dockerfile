@@ -6,7 +6,6 @@ WORKDIR /app
 # Copiar archivos de configuración de Gradle
 COPY gradle ./gradle
 COPY gradlew ./gradlew
-COPY gradle.properties ./gradle.properties
 COPY build.gradle.kts ./build.gradle.kts
 COPY settings.gradle.kts ./settings.gradle.kts
 
